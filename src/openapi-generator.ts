@@ -39,7 +39,7 @@ type ParameterLocation = ParameterLocation30 & ParameterLocation31;
 type ResponseObject = ResponseObject30 & ResponseObject31;
 type ContentObject = ContentObject30 & ContentObject31;
 type DiscriminatorObject = DiscriminatorObject30 & DiscriminatorObject31;
-type SchemaObject = SchemaObject30 & SchemaObject31;
+type SchemaObject = SchemaObject30 & SchemaObject31 & { tags?: string[] };
 type BaseParameterObject = BaseParameterObject30 & BaseParameterObject31;
 type HeadersObject = HeadersObject30 & HeadersObject31;
 

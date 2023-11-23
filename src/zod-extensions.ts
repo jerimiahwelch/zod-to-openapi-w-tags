@@ -22,6 +22,7 @@ export type ZodOpenAPIMetadata<T = any, E = ExampleValue<T>> = Omit<
   example?: E;
   examples?: E[];
   default?: T;
+  tags?: string[];
 };
 
 export interface ZodOpenAPIInternalMetadata {
